@@ -1,0 +1,7 @@
+# function that extracts the first name from a full name
+name=input("Enter your name: ")
+firstname=name.split()
+surname=name.split()
+print(firstname[0].title())
+print(surname[1].title())
+
